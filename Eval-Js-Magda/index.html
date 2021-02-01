@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Location</title>
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a href="#"></a>
+            <div id="myLinks">
+                <a href="#">Louer une voiture</a>
+                <a href="#">Louer un utilitaire</a>
+                <a href="#">Réserver un chauffeur</a>
+                <a href="#">Découvrez nos agences</a>
+                <a href="#">Mon Compte</a>
+                <a href="#">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <div class="btn">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </a>
+        </div>
+        <h1>Bienvenue à bord</h1>
+        <p class="ph">Location de voiture 24h/24 et 7j/7</p>
+        <div>
+            <form action="#">
+                <label></label>
+                <input type="text" placeholder="Adresse de départ">
+                <label></label>
+                <input type="text" placeholder="Début de la location">
+                <label></label>
+                <input type="text" placeholder="Fin de location">
+                <input type="submit" value="Valider ma recherche">
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="résultat">
+            <p>7 résultats</p>
+            <button class="prix">Prix décroissant </button>
+        </div>
+        <div class="slideshow-container">
+            <section class="mySlides">
+                <img class="vehicule" src="img/vehicule1.png" alt="">
+                <h3>Peugeot 208</h3>
+                <p>Diesel, 5 portes, GPS, AudioRadio, Forfait 1000 km (0,5/km suplémentaire<br>999 € - Agence de
+                    Paris
+                </p>
+                <button>Réserver et payer</button>
+            </section>
+
+            <section class="mySlides">
+                <img class="vehicule" src="img/vehicule2.png" alt="">
+                <h3>Ford Focus</h3>
+                <p>Diesel, 5 portes, GPS, AudioRadio, Forfait 1000 km (0,5/km suplémentaire<br>999 €
+
+                </p>
+                <button>Réserver et payer</button>
+            </section>
+
+            <section class="mySlides">
+                <img class="vehicule" src="img/vehicule3.png" alt="">
+                <h3>Audi A1</h3>
+                <p>Diesel, 5 portes, GPS, AudioRadio, Forfait 1000 km (0,55/km suplémentaire<br>1100 € -
+                    Agence
+                    de
+                    Paris
+                </p>
+                <button>Réserver et payer</button>
+            </section>
+
+            <section class="mySlides">
+                <img class="vehicule" src="img/vehicule4.png" alt="">
+                <h3>Opel Moka</h3>
+                <p>Diesel, 5 portes, GPS, AudioRadio, Forfait 1000 km (0,5/km suplémentaire<br>1150 € -
+                    Agence de Paris
+                </p>
+                <button>Réserver et payer</button>
+            </section>
+            <div>
+                <button class="prev slide" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next slide" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img class="ifoot" src="img/agence.jpg" alt="agence">
+        <p>Notre agence de <b>Paris</b><br>300 boulevard de Vaugirard,75015,Paris<br>Ouvert 7j/7 de 9h à 13h et 14h à
+            20h<br>01 49 78 21 33<br>contact@vtc.com
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
